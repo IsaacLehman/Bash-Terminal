@@ -9,7 +9,7 @@ could in a normal terminal
   - execute files
   - change directory
  
- # COMPILE: gcc -o shell shell.c
- # RUN: ./shell
- # STOP: exit or ctr-c
+ ### COMPILE: gcc -o shell shell.c
+ ### RUN: ./shell
+ ### STOP: exit or ctr-c
  
