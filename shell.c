@@ -105,6 +105,7 @@ int shell_find_file(char *file_name, char *file_path, char file_path_size) {
 
       } else {
         print_error("File path exceeded maximum length...");
+        free(tofree);
         return -1;
 
       }
